@@ -22,7 +22,7 @@ def valid_move?(board, index)
 end
 
 def move(board, user_input, player)
-  index = user_input(user_input)
+  index = input_to_index(user_input)
   board[index] = player
 end
 
