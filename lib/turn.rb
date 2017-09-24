@@ -12,10 +12,8 @@ end
 def valid_move?(board, index)
   if index.between?(0,8)
     if board[index]==" " || board[index]==""
-      puts "empty"
       true
     else
-      puts "Not empty"
       false
     end
   else
