@@ -11,10 +11,13 @@ end
 
 def valid_move?(board, index)
   if board[index]==" " || board[index]==""
+    puts "empty"
     true
   elsif board[index]=="X" || board[index]=="O"
+    puts "Not empty"
     false
   else
+    puts "else"
     false
   end
 end
