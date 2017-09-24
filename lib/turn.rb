@@ -10,14 +10,15 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  if board[index]==" " || board[index]==""
-    puts "empty"
-    true
-  elsif board[index]=="X" || board[index]=="O"
-    puts "Not empty"
-    false
+  if index.between?(0,8)
+    if board[index]==" " || board[index]==""
+      puts "empty"
+      true
+    else
+      puts "Not empty"
+      false
+    end
   else
-    puts "else"
     false
   end
 end
