@@ -1,6 +1,6 @@
 def turn
   puts "Please enter 1-9:"
-#  user_input = gets 
+#  user_input = gets
 end
 
 def display_board(board)
