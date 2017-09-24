@@ -21,10 +21,10 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, position, player)
-  
+def move(board, user_input, player)
+  index = user_input(user_input)
 end
 
 def input_to_index(user_input)
-  user_input = user_input.to_i-1
+  index = user_input.to_i-1
 end
